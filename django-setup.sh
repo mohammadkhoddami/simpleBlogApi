@@ -32,7 +32,7 @@ cd Scripts
 source activate
 
 echo "📦 Installing Dependencies..."
-pip install django djangorestframework django-cors-headers python-dotenv
+pip install django djangorestframework django-cors-headers python-dotenv psycopg2
 
 # 2. Start Django Project
 # naming the folder 'config' instead of project name for cleaner imports
