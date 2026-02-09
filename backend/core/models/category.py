@@ -5,4 +5,6 @@ from .base import SluggedMixin
 
 
 class Category(SluggedMixin):
-    pass
+    
+    def __str__(self):
+        return f'{self.title}'
